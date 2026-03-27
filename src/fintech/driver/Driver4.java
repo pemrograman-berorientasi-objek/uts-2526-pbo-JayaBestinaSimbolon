@@ -1,7 +1,7 @@
 package  fintech.driver;
 
 /**
- * @author  12S24023 Jaya Bestina Simbolon
+ * @author  12S24023 Jaya Bestina Simbolonn
  */
  
 fintech.driver.Driver4 {
