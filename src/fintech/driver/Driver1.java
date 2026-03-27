@@ -1,15 +1,27 @@
-package academic.driver;
+package  fintech.driver;
 
 /**
- * @author NIM Nama
- * @author NIM Nama
+ * @author 12S24023 Jaya Bestina Simbolon
  */
-public class Driver1 {
+import java.util.Scanner;
+import fintech.driver.account;
 
-    public static void main(String[] _args) {
+fintech.driver.Driver1{
 
-        // codes
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String command = scanner.nextLine();
 
+        if (command.equals("create-Account")) {
+             String username = scanner.nextLine();
+             String name = scanner.nextLine();
+             double balance = scanner.nextLine();
+             Account account = new account(username, name, balance);
+            System.out.println(Account);
+
+        }
+
+        scanner.close();
     }
-
 }
+
